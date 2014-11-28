@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<script src="../jquery-1.11.1.min.js"></script>
+<script src="../jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="panel" id="mainMenu">
+  	<ul data-role="listview">
+  		<li><a href="#">Home</a></li>
+  		<li><a href="#">Indentitas Anda</a></li>
+  		<li><a href="#">Kontrol</a></li>
+  		<li><a href="#">Kamar</a></li>
+  		<li><a href="#">Jadwal</a></li>
+  		<li><a href="#">Paket Pemeriksaan dan Tarif</a></li>
+  		<li><a href="#">Menu Makanan</a></li>
+  		<li><a href="#">Riwayat Pemeriksaan</a></li>
+  		<li><a href="#">Resep</a></li>
+  		<li><a href="#">Tagihan Pembayaran</a></li>
+  		<li><a href="#">Pemeriksaan Penunjang</a></li>
+  		<li><a href="#">Berita Rumah Sakit</a></li>
+  		<li><a href="#">Profil Doktor</a></li>
+  	</ul>
+  </div>
+  <div data-role="header">
+    <a data-role="button" href="#mainMenu">Menu</a>
+    <h1>Dashboard</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  	<div id="dashboard">
+  		<div id="wrapper">
+  			<div id="queue">
+  				<div id="curQueue">
+  					<div id="boxCurCircle" class="inline">
+  						<div id="boxBigCircle" >
+  							20
+  						</div>
+  						<div id="boxBigTitle">
+  							<h3>Pendaftaran</h3>
+  						</div>
+  					</div>
+  					<div id="boxCurDesc" class="inline">
+  						<h3>Antrian Anda</h3>
+  						<table>
+  							<tr>
+  								<td>Nomor Antrian</td>
+  								<td>:</td>
+  								<td>15</td>
+  							</tr>
+  							<tr>
+  								<td>Sisa Antrian</td>
+  								<td>:</td>
+  								<td>5</td>
+  							</tr>
+  						</table>
+  					</div>
+  				</div>
+  			</div>
+  			<div id="nonQueue" class="clearBoth">
+  				<h3 class="inline">Antrian Lainnya</h3>
+  				<div class="inline">
+					<div class="otherQueue" >
+						20
+					</div>
+					<div id="boxBigTitle">
+						Poliklinik
+					</div>
+  				</div>
+  				<div class="inline">
+					<div class="otherQueue" >
+						20
+					</div>
+					<div id="boxBigTitle">
+						Apotek
+					</div>
+  				</div>
+  				<div class="inline">
+					<div class="otherQueue" >
+						20
+					</div>
+					<div id="boxBigTitle">
+						Pemeriksaan
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <a data-role="button" href="#" data-icon="add" style="float:right"></a>
+    <a data-role="button" href="#" data-icon="add" style="float:right"></a>
+  </div>
+
+
+</div> 
+
+</body>
+</html>

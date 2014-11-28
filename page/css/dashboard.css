@@ -1,0 +1,44 @@
+.wrapper {
+    border:1pt solid;
+    background-color: #ff66ff;
+}
+#curQueue {
+    width: 100%;
+    
+}
+
+#boxCurCircle {
+    width: 150px;
+    text-align: center;
+    
+}
+
+div.inline { float:left; }
+.clearBoth { clear:both; }
+h3.inline {float:left;}
+
+#boxCurDesc {
+    
+}
+#boxBigCircle {
+   width:100px;
+   height:100px;
+   border-radius:50%;
+   border: 2px solid black;
+   font-size: 2.2em;
+   line-height: 100px;
+   text-align:center;
+   margin: 0 auto;
+}
+
+.otherQueue {
+   width:35px;
+   height:35px;
+   margin-left: 50px;
+   border-radius:50%;
+   border: 2px solid black;
+   font-size: 1.2em;
+   line-height: 35px;
+   text-align:center;
+   margin: 0 auto;
+}
